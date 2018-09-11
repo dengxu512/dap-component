@@ -1,0 +1,8 @@
+{
+  "name": "ng-dap",
+  "es2015": "bundles/ng-dap.es2015.js",
+  "peerDependencies": {
+    "@angular/core": "*",
+    "@angular/common": "*"
+  }
+}
