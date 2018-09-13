@@ -1,2 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 src/api-doc.json
+
+# compiled output
+/dist

@@ -13,11 +13,10 @@ export const routes = [
     component: GettingStartedComponent
   },
   {
-    path: 'dropdowns',
+    path: 'tree',
     data: ['tree'],
-    // component: DropdownSectionComponent
     loadChildren:
-      './components/+dropdown/demo-dropdown.module#DemoDropdownModule'
+      './components/+tree/demo-tree.module#DemoTreeModule'
   },
   {
     path: '**',

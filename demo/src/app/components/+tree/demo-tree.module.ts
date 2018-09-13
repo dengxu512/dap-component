@@ -5,13 +5,13 @@ import { RouterModule } from '@angular/router';
 import { NgTreeModule } from 'ng-dap/ng-tree';
 
 import { DocsModule } from '../../docs';
-import { DropdownSectionComponent } from './dropdown-section.component';
+import { TreeSectionComponent } from './tree-section.component';
 import { DEMO_COMPONENTS } from './demos';
-import { routes } from './demo-dropdown.routes';
+import { routes } from './demo-tree.routes';
 
 @NgModule({
   declarations: [
-    DropdownSectionComponent,
+    TreeSectionComponent,
     ...DEMO_COMPONENTS
   ],
   imports: [
@@ -21,7 +21,7 @@ import { routes } from './demo-dropdown.routes';
     DocsModule,
     RouterModule.forChild(routes)
   ],
-  exports: [DropdownSectionComponent],
+  exports: [TreeSectionComponent],
   entryComponents: [...DEMO_COMPONENTS]
 })
-export class DemoDropdownModule {}
+export class DemoTreeModule {}
